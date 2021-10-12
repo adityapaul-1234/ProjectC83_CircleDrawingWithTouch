@@ -1,0 +1,31 @@
+<html>
+    <head>
+          <title> Canvas </title>
+          <link rel="stylesheet" href="style.css">
+          <script src="main.js"></script>
+    </head>
+     
+    <body background="Background Img.jpg">
+    <center>
+        <h1> My Canvas! </h1> <hr> <br>
+        <canvas id="mycanvas" height="800" width="600"> </canvas>
+
+        <br> <br>
+        <span> Radius: </span>
+        <input type="text" placeholder="Enter Radius Here" id="Radius" value="40"></input> <br>
+        <br>  
+        <span> Colour: </span>
+        <input type="text" placeholder="Enter Colour Here" id="colour" value="Black" ></input> <br>
+        <br>
+        <span> Line Width: </span>
+        <input type="text" placeholder="Enter Line Width Here" id="line-width" value="2"></input> <br>
+        <br>
+        <input type="button" id="clear" onclick="erase()" value="Clear Canvas"></input>
+        <br>
+        <br>
+        <input type="button" id="default" onclick="restore()" value="Restore Defaults"></input>
+
+    </center>
+        <script src="main.js"></script>
+    </body>
+  </html>  
